@@ -1,0 +1,924 @@
+img.wp-smiley,
+img.emoji {
+    display: inline;
+    border: none;
+    box-shadow: none;
+    height: 1em;
+    width: 1em;
+    margin: 0 0.07em;
+    vertical-align: -0.1em;
+    background: none;
+    padding: 0;
+}
+
+body {
+    --wp--preset--color--black: #000000;
+    --wp--preset--color--cyan-bluish-gray: #abb8c3;
+    --wp--preset--color--white: #ffffff;
+    --wp--preset--color--pale-pink: #f78da7;
+    --wp--preset--color--vivid-red: #cf2e2e;
+    --wp--preset--color--luminous-vivid-orange: #ff6900;
+    --wp--preset--color--luminous-vivid-amber: #fcb900;
+    --wp--preset--color--light-green-cyan: #7bdcb5;
+    --wp--preset--color--vivid-green-cyan: #00d084;
+    --wp--preset--color--pale-cyan-blue: #8ed1fc;
+    --wp--preset--color--vivid-cyan-blue: #0693e3;
+    --wp--preset--color--vivid-purple: #9b51e0;
+    --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+    --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+    --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+    --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+    --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+    --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+    --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+    --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+    --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+    --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+    --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+    --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+    --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+    --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+    --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+    --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+    --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+    --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+    --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+    --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+    --wp--preset--font-size--small: 13px;
+    --wp--preset--font-size--medium: 20px;
+    --wp--preset--font-size--large: 36px;
+    --wp--preset--font-size--x-large: 42px;
+}
+
+.has-black-color {
+    color: var(--wp--preset--color--black);
+}
+
+.has-cyan-bluish-gray-color {
+    color: var(--wp--preset--color--cyan-bluish-gray);
+}
+
+.has-white-color {
+    color: var(--wp--preset--color--white);
+}
+
+.has-pale-pink-color {
+    color: var(--wp--preset--color--pale-pink);
+}
+
+.has-vivid-red-color {
+    color: var(--wp--preset--color--vivid-red);
+}
+
+.has-luminous-vivid-orange-color {
+    color: var(--wp--preset--color--luminous-vivid-orange);
+}
+
+.has-luminous-vivid-amber-color {
+    color: var(--wp--preset--color--luminous-vivid-amber);
+}
+
+.has-light-green-cyan-color {
+    color: var(--wp--preset--color--light-green-cyan);
+}
+
+.has-vivid-green-cyan-color {
+    color: var(--wp--preset--color--vivid-green-cyan);
+}
+
+.has-pale-cyan-blue-color {
+    color: var(--wp--preset--color--pale-cyan-blue);
+}
+
+.has-vivid-cyan-blue-color {
+    color: var(--wp--preset--color--vivid-cyan-blue);
+}
+
+.has-vivid-purple-color {
+    color: var(--wp--preset--color--vivid-purple);
+}
+
+.has-black-background-color {
+    background-color: var(--wp--preset--color--black);
+}
+
+.has-cyan-bluish-gray-background-color {
+    background-color: var(--wp--preset--color--cyan-bluish-gray);
+}
+
+.has-white-background-color {
+    background-color: var(--wp--preset--color--white);
+}
+
+.has-pale-pink-background-color {
+    background-color: var(--wp--preset--color--pale-pink);
+}
+
+.has-vivid-red-background-color {
+    background-color: var(--wp--preset--color--vivid-red);
+}
+
+.has-luminous-vivid-orange-background-color {
+    background-color: var(--wp--preset--color--luminous-vivid-orange);
+}
+
+.has-luminous-vivid-amber-background-color {
+    background-color: var(--wp--preset--color--luminous-vivid-amber);
+}
+
+.has-light-green-cyan-background-color {
+    background-color: var(--wp--preset--color--light-green-cyan);
+}
+
+.has-vivid-green-cyan-background-color {
+    background-color: var(--wp--preset--color--vivid-green-cyan);
+}
+
+.has-pale-cyan-blue-background-color {
+    background-color: var(--wp--preset--color--pale-cyan-blue);
+}
+
+.has-vivid-cyan-blue-background-color {
+    background-color: var(--wp--preset--color--vivid-cyan-blue);
+}
+
+.has-vivid-purple-background-color {
+    background-color: var(--wp--preset--color--vivid-purple);
+}
+
+.has-black-border-color {
+    border-color: var(--wp--preset--color--black);
+}
+
+.has-cyan-bluish-gray-border-color {
+    border-color: var(--wp--preset--color--cyan-bluish-gray);
+}
+
+.has-white-border-color {
+    border-color: var(--wp--preset--color--white);
+}
+
+.has-pale-pink-border-color {
+    border-color: var(--wp--preset--color--pale-pink);
+}
+
+.has-vivid-red-border-color {
+    border-color: var(--wp--preset--color--vivid-red);
+}
+
+.has-luminous-vivid-orange-border-color {
+    border-color: var(--wp--preset--color--luminous-vivid-orange);
+}
+
+.has-luminous-vivid-amber-border-color {
+    border-color: var(--wp--preset--color--luminous-vivid-amber);
+}
+
+.has-light-green-cyan-border-color {
+    border-color: var(--wp--preset--color--light-green-cyan);
+}
+
+.has-vivid-green-cyan-border-color {
+    border-color: var(--wp--preset--color--vivid-green-cyan);
+}
+
+.has-pale-cyan-blue-border-color {
+    border-color: var(--wp--preset--color--pale-cyan-blue);
+}
+
+.has-vivid-cyan-blue-border-color {
+    border-color: var(--wp--preset--color--vivid-cyan-blue);
+}
+
+.has-vivid-purple-border-color {
+    border-color: var(--wp--preset--color--vivid-purple);
+}
+
+.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+    background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple);
+}
+
+.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+    background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan);
+}
+
+.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+    background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange);
+}
+
+.has-luminous-vivid-orange-to-vivid-red-gradient-background {
+    background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red);
+}
+
+.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+    background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray);
+}
+
+.has-cool-to-warm-spectrum-gradient-background {
+    background: var(--wp--preset--gradient--cool-to-warm-spectrum);
+}
+
+.has-blush-light-purple-gradient-background {
+    background: var(--wp--preset--gradient--blush-light-purple);
+}
+
+.has-blush-bordeaux-gradient-background {
+    background: var(--wp--preset--gradient--blush-bordeaux);
+}
+
+.has-luminous-dusk-gradient-background {
+    background: var(--wp--preset--gradient--luminous-dusk);
+}
+
+.has-pale-ocean-gradient-background {
+    background: var(--wp--preset--gradient--pale-ocean);
+}
+
+.has-electric-grass-gradient-background {
+    background: var(--wp--preset--gradient--electric-grass);
+}
+
+.has-midnight-gradient-background {
+    background: var(--wp--preset--gradient--midnight);
+}
+
+.has-small-font-size {
+    font-size: var(--wp--preset--font-size--small);
+}
+
+.has-medium-font-size {
+    font-size: var(--wp--preset--font-size--medium);
+}
+
+.has-large-font-size {
+    font-size: var(--wp--preset--font-size--large);
+}
+
+.has-x-large-font-size {
+    font-size: var(--wp--preset--font-size--x-large);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .explore-wrapper .grinch-christmas-box {
+        height: 25vh;
+    }
+
+    .explore-wrapper .grinch-christmas-box:after {
+        border-radius: 8px;
+    }
+
+    .explore-wrapper .grinch-musical-box {
+        height: 25vh;
+    }
+
+    .explore-wrapper .grinch-talkshow-box {
+        height: 25vh;
+    }
+
+    .explore-wrapper .seuss-experience-box {
+        height: 25vh;
+    }
+
+    .explore-wrapper .seuss-experience-box:after {
+        border-radius: 8px;
+    }
+
+    .explore-wrapper .characters-box {
+        height: 25vh;
+    }
+
+    .explore-wrapper .books-box {
+        height: 25vh;
+    }
+
+    .explore-wrapper .experience-box {
+        height: 25vh;
+    }
+
+    .explore-wrapper .outline-text {
+        font-size: 32px;
+    }
+
+    .row {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+
+    .explore-wrapper .characters-box a,
+    .explore-wrapper .theexperience-box a {
+        font-size: 32px;
+    }
+}
+
+.newsletter-wrapper {
+    display: none;
+}
+
+#wrapper-hero {
+    height: auto;
+
+}
+
+.explore-wrapper .outline-text {
+    font-size: 48px;
+}
+
+.explore-wrapper .characters-box a,
+.explore-wrapper .theexperience-box a {
+    font-size: 48px;
+}
+
+
+.explore-wrapper .box-wrapper .grinch-musical-box {
+    background-color: #ffffff;
+    background-image: url(/app/uploads/2023/11/seussville-web-home-grinchmusical.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25vh;
+    max-height: 240px;
+    border-radius: 20px;
+    border: 2px solid #333;
+}
+
+.explore-wrapper .grinch-musical-box a {
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 48px;
+    z-index: 100;
+}
+
+.explore-wrapper .box-wrapper .grinch-talkshow-box {
+    background-color: #ffffff;
+    background-image: url(/app/uploads/2023/11/seussville-web-home-grinchtalkshow.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25vh;
+    max-height: 240px;
+    border-radius: 20px;
+    border: 2px solid #333;
+}
+
+.explore-wrapper .grinch-talkshow-box a {
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 48px;
+    z-index: 100;
+}
+
+.explore-wrapper .grinch-christmas-box {
+    height: 40vh;
+    border-radius: 20px;
+    border: 2px solid #333;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 10px;
+    margin-top: 16px;
+}
+
+.explore-wrapper .grinch-christmas-box:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/app/uploads/2023/11/seussville-web-home-grinchlostchristmas-nov2023.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    z-index: 1;
+}
+
+.explore-wrapper .grinch-christmas-box a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 48px;
+    z-index: 100;
+}
+
+.explore-wrapper .seuss-experience-box {
+    height: 40vh;
+    border-radius: 20px;
+    border: 2px solid #333;
+    position: relative;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.explore-wrapper .seuss-experience-box:after {
+    content: '';
+    position: absolute;
+    box-sizing: content-box;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/app/uploads/2023/11/seussville-web-home-drseussexperience.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.explore-wrapper .seuss-experience-box a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 48px;
+    z-index: 100;
+}
+
+body {
+    background-image: url(https://www.seussville.com/app/themes/seussville-child/images/things-background-pattern.jpg);
+}
+
+#hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+
+
+.wrapper {
+    position: relative;
+    z-index: 3;
+    /* Lower z-index means this will be behind */
+    margin-bottom: 10;
+}
+
+.row {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.blue-fish,
+.who-ville-family,
+.fish,
+.foona-lagoona-baboona,
+.foot-guy,
+.fox-in-socks,
+.fritz,
+.happy-hunch,
+.horton,
+.max,
+.north-going-zax,
+.one-fish-green-fish,
+.organ-mcorgan-mcgurkus,
+.plain-belly-sneetches,
+.red-fish,
+.sam-i-am,
+.star-belly-sneetches,
+.the-cat-in-the-hat,
+.the-grinch,
+.the-lorax,
+.hop-on-pop {
+    transition: transform 0.5s ease;
+    /* Smooth transitions */
+    
+}
+
+
+.blue-fish,
+.who-ville-family,
+.fish,
+.foona-lagoona-baboona,
+.foot-guy,
+.fox-in-socks,
+.fritz,
+.happy-hunch,
+.horton,
+.max,
+.north-going-zax,
+.one-fish-green-fish,
+.organ-mcorgan-mcgurkus,
+.plain-belly-sneetches,
+.red-fish,
+.sam-i-am,
+.star-belly-sneetches,
+.the-cat-in-the-hat,
+.the-grinch,
+.the-lorax,
+.hop-on-pop {
+    transform: scale(1.1);
+    /* Increase the size of the character to 110% */
+}
+
+#hero-image {
+    animation: bounce-in 2s ease-in-out;
+}
+
+@keyframes bounce-in {
+    0% {
+        opacity: 0;
+        transform: scale(.3);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+
+    70% {
+        transform: scale(.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.characters-header {
+    backface-visibility: visible !important;
+    animation: flip 4s ease-in-out;
+}
+
+@keyframes flip {
+    0% {
+        transform: perspective(700px) rotateY(0);
+        animation-timing-function: ease-out;
+    }
+
+    40% {
+        transform: perspective(700px) translateZ(150px) rotateY(170deg);
+        animation-timing-function: ease-out;
+    }
+
+    50% {
+        transform: perspective(700px) translateZ(150px) rotateY(190deg) scale(1);
+        animation-timing-function: ease-in;
+    }
+
+    80% {
+        transform: perspective(700px) rotateY(360deg) scale(.95);
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        transform: perspective(700px) scale(1);
+        animation-timing-function: ease-in;
+    }
+}
+
+#wrapper-footer-full {
+    animation: hithere 7s ease infinite;
+}
+
+@keyframes hithere {
+    30% {
+        transform: scale(1.1);
+    }
+
+    40%,
+    60% {
+        transform: rotate(-5deg) scale(1.1);
+    }
+
+    50% {
+        transform: rotate(5deg) scale(1.1);
+    }
+
+    70% {
+        transform: rotate(5deg) scale(1.1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+@keyframes MOVE-BG {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 100%;
+    }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Merienda+One");
+
+html {
+    background-color: white;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 8em;
+    font-family: 'Merienda One';
+    font-weight: 400;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0;
+    line-height: 1;
+    transform: translateY(-50%);
+    z-index: 100;
+    text-shadow: 0 2px 10px rgba(black, 0.8);
+}
+
+
+.more-snow {
+
+    &:before,
+    &:after {
+        content: "";
+        position: fixed;
+        top: -3000%;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba(black, 0.01);
+        -webkit-animation-name: MOVE-BG;
+        -webkit-animation-duration: 500s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+    }
+}
+
+
+.more-snow {
+    &:before {
+        filter: blur(4px);
+        opacity: 0.8;
+        top: -2500%;
+        background-size: 60%;
+        animation-duration: 400s;
+        z-index: -3;
+    }
+
+    &:after {
+        filter: blur(2px);
+        opacity: 0.8;
+        top: -2000%;
+        background-image: url(https://laviwebfiles.com/stage/codepen/4-2-white-snow-png.png);
+        background-size: 70%;
+        animation-duration: 300s;
+    }
+}
+
+@-webkit-keyframes MOVE-BG {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(70%);
+    }
+}
+
+
+.blue-fish,
+.who-ville-family,
+.fish,
+.foona-lagoona-baboona,
+.foot-guy,
+.fox-in-socks,
+.fritz,
+.happy-hunch,
+.horton,
+.max,
+.north-going-zax,
+.one-fish-green-fish,
+.organ-mcorgan-mcgurkus,
+.plain-belly-sneetches,
+.red-fish,
+.sam-i-am,
+.star-belly-sneetches,
+.the-cat-in-the-hat,
+.the-grinch,
+.the-lorax,
+.hop-on-pop {
+    background-color: lightblue;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+.best-sellers {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+
+.book {
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    /* Adjust background color */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* shadow */
+    margin-top: 50px;
+    margin-bottom: 130px;
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles for individual books */
+.book-left,
+.book-middle,
+.book-right {
+    margin-bottom: 80px;
+}
+
+
+.blue-fish,
+.who-ville-family,
+.fish,
+.foona-lagoona-baboona,
+.foot-guy,
+.fox-in-socks,
+.fritz,
+.happy-hunch,
+.horton,
+.max,
+.north-going-zax,
+.one-fish-green-fish,
+.organ-mcorgan-mcgurkus,
+.plain-belly-sneetches,
+.red-fish,
+.sam-i-am,
+.star-belly-sneetches,
+.the-cat-in-the-hat,
+.the-grinch,
+.the-lorax,
+.hop-on-pop {
+    transition: ease-in 2s;
+}
+
+/* Parent container perspective */
+.row {
+    perspective: 1000px;
+}
+
+/* Initial state of the character */
+.blue-fish,
+.who-ville-family,
+.fish,
+.foona-lagoona-baboona,
+.foot-guy,
+.fox-in-socks,
+.fritz,
+.happy-hunch,
+.horton,
+.max,
+.north-going-zax,
+.one-fish-green-fish,
+.organ-mcorgan-mcgurkus,
+.plain-belly-sneetches,
+.red-fish,
+.sam-i-am,
+.star-belly-sneetches,
+.the-cat-in-the-hat,
+.the-grinch,
+.the-lorax,
+.hop-on-pop {
+    transition: transform 0.1s;
+    transform-style: preserve-3d;
+}
+
+
+ .blue-fish:hover,
+ .who-ville-family:hover,
+ .fish:hover,
+ .foona-lagoona-baboona:hover,
+ .foot-guy:hover,
+ .fox-in-socks:hover,
+ .fritz:hover,
+ .happy-hunch:hover,
+ .horton:hover,
+ .max:hover,
+ .north-going-zax:hover,
+ .one-fish-green-fish:hover,
+ .organ-mcorgan-mcgurkus:hover,
+ .plain-belly-sneetches:hover,
+ .red-fish:hover,
+ .sam-i-am:hover,
+ .star-belly-sneetches:hover,
+ .the-cat-in-the-hat:hover,
+ .the-grinch:hover,
+ .the-lorax:hover,
+ .hop-on-pop:hover  {
+    transform: rotateY(360deg);
+}
+
+
+.blue-fish .front,
+.blue-fish .back,
+.who-ville-family .front,
+.who-ville-family .back,
+.fish .front,
+.fish .back,
+.foona-lagoona-baboona .front,
+.foona-lagoona-baboona .back,
+.foot-guy .front,
+.foot-guy .back,
+.fox-in-socks .front,
+.fox-in-socks .back,
+.fritz .front,
+.fritz .back,
+.happy-hunch .front,
+.happy-hunch .back,
+.horton .front,
+.horton .back,
+.max .front,
+.max .back,
+.north-going-zax .front,
+.north-going-zax .back,
+.one-fish-green-fish .front,
+.one-fish-green-fish .back,
+.organ-mcorgan-mcgurkus .front,
+.organ-mcorgan-mcgurkus .back,
+.plain-belly-sneetches .front,
+.plain-belly-sneetches .back,
+.red-fish .front,
+.red-fish .back,
+.sam-i-am .front,
+.sam-i-am .back,
+.star-belly-sneetches .front,
+.star-belly-sneetches .back,
+.the-cat-in-the-hat .front,
+.the-cat-in-the-hat .back,
+.the-grinch .front,
+.the-grinch .back,
+.the-lorax .front,
+.the-lorax .back,
+.hop-on-pop .front,
+.hop-on-pop .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.blue-fish .back, 
+.who-ville-family .back,
+.fish .back,
+.foona-lagoona-baboona .back,
+.foot-guy .back,
+.fox-in-socks .back,
+.fritz .back,
+.happy-hunch .back,
+.horton .back,
+.max .back,
+.north-going-zax .back,
+.one-fish-green-fish .back,
+.organ-mcorgan-mcgurkus .back,
+.plain-belly-sneetches .back,
+.red-fish .back,
+.sam-i-am .back,
+.star-belly-sneetches .back,
+.the-cat-in-the-hat .back,
+.the-grinch .back,
+.the-lorax .back,
+.hop-on-pop .back {
+    transform: rotateY(180deg);
+}
+
+.book-left,
+.book-right {
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.book-left:hover,
+.book-right:hover {
+    transform: scale(1.1); /* Scale up the image to 110% of its original size */
+}
